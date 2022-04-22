@@ -1,0 +1,231 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    padding: 0px;
+}
+
+.row{
+    margin: 0px;
+}
+
+#special-id{
+    display: flex;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.slider-box-m {
+    padding: 15px;
+    height: 500px;
+}
+
+.slider-box-c {
+    background: white;
+    -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    border-width: thin;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+.slider-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}
+
+.left-rigt-control {
+    opacity: 0%;
+}
+
+.left-rigt-control:hover {
+    opacity: 0%;
+}
+
+#aisle-id{
+    display: flex;
+    margin-top: 100px;
+    padding: 0px;
+}
+
+.card {
+    border: 0px;
+    border-radius: 5px;
+    padding: 30px;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: 0.3s all ease;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    transition: 0.3s all ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+    transition: 0.3s all ease;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    transition: 0.3s all ease;
+}
+
+.card-body {
+    text-align: center;
+    color:#009970;
+}
+
+.card-title {
+    font-size: 20px;
+}
+
+.card a {
+    width: 100%;
+    height: 225px;
+}
+
+.w-img {
+    padding: 0px;
+    height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.welcome-text {
+    color: white;
+    text-align: center;
+    font-family: Impact, sans-serif;
+    width: 50%;
+}
+
+.welcome-text h1 {
+    font-size: 100px;
+    -webkit-text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.welcome-text h3 {
+    font-size: 50px;
+    -webkit-text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.badge {
+    margin-top: 100px;
+    height: 300px;
+}
+
+.badge-img {
+    width:100%; 
+    height:100%;
+    object-fit: contain;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2));
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .card a {
+        width: 100%;
+        height: 420px;
+    }    
+
+    .card-img-top {
+        max-height: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+    .card a {
+        width: 100%;
+        height: 300px;
+    }
+
+    .w-img {
+        justify-content: end;
+    }
+
+    .welcome-text h1 {
+        font-size: 80px;
+    }
+    
+    .welcome-text h3 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .card a {
+        width: 100%;
+        height: 480px;
+    }
+
+    .w-img {
+        justify-content: center;
+    }
+    
+    .welcome-text {
+        width: 100%;
+    }
+
+    .welcome-text h1 {
+        font-size: 80px;
+    }
+    
+    .welcome-text h3 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .card a {
+        width: 100%;
+        max-height: 365px;
+    }  
+    
+    .welcome-text h1 {
+        font-size: 60px;
+    }
+    
+    .welcome-text h3 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card a {
+        width: 100%;
+        max-height: 260px;
+    }
+    
+    .welcome-text h1 {
+        font-size: 35px;
+    }
+    
+    .welcome-text h3 {
+        font-size: 15px;
+    }
+}
+
+.aisle {
+    height: 1000px;
+}

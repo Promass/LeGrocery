@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<orderlist>
+    <oidcounter>3</oidcounter>
+
+    <order>
+
+        <oid>1</oid>
+        <date>
+            <dd>14</dd>
+            <mm>04</mm>
+            <yy>2022</yy>
+        </date>
+        <name>
+            <firstname>Tom</firstname>
+            <lastname>Cat</lastname>
+        </name>
+        <item>16</item>
+        <total>43.99</total>
+        <itemlist>
+
+            <aidx>0,5,2</aidx>
+            <pidx>0,3,0</pidx>
+            <qidx>1,10,5</qidx>
+
+        </itemlist>
+        <fullfilment>0</fullfilment>
+
+    </order>
+
+    <order>
+        <oid>2</oid>
+        <date>
+            <dd>15</dd>
+            <mm>04</mm>
+            <yy>2022</yy>
+        </date>
+        <name>
+            <firstname>Jerry</firstname>
+            <lastname>Smith</lastname>
+        </name>
+        <item>10</item>
+        <total>35.46</total>
+        <itemlist>
+            <aidx>0,2,0,0</aidx>
+            <pidx>0,0,1,4</pidx>
+            <qidx>1,1,5,3</qidx>
+        </itemlist>
+        <fullfilment>0</fullfilment>
+    </order>
+<order><oid>3</oid><date><dd>17</dd><mm>04</mm><yy>2022</yy></date><name><firstname>Michel</firstname><lastname>Oussama</lastname></name><item>3</item><total>25.99</total><itemlist><aidx>5,1</aidx><pidx>1,4</pidx><qidx>2,1</qidx></itemlist><fullfilment>0</fullfilment></order></orderlist>

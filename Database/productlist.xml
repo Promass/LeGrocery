@@ -1,0 +1,402 @@
+<productlsit>
+    <aidcounter>
+        <!-- Aisle ID -->
+        6
+    </aidcounter>
+
+    <pidcounter>
+        <!-- Product ID -->
+        30
+    </pidcounter>
+
+    <aisle>
+
+        <aid>1</aid>
+
+        <aislename>FRUITS &amp; VEGETABLES</aislename>
+
+        <aisleimage>Category/vegetable.jpg</aisleimage>
+
+        <product>
+            <pid>1</pid>
+            <image>Fruits/tomato.jpg</image>
+            <name>Tomato</name>
+            <amount>8 Tomatos / Stack</amount>
+            <unit>Stack</unit>
+            <rating>5</rating>
+            <price>3.99</price>
+            <description>Fresh and firm tomatoes. Perfect as a topping on burgers and sandwiches.</description>
+        </product>
+
+        <product>
+            <pid>2</pid>
+            <image>Fruits/orange.jpg</image>
+            <name>Orange</name>
+            <amount>3 Oranages / Bag</amount>
+            <unit>Bag</unit>
+            <rating>4</rating>
+            <price>3.50</price>
+            <description>Bright orange, easy to peel, and have a sweet and seedless pulp.</description>
+        </product>
+
+        <product>
+            <pid>3</pid>
+            <image>Fruits/apple.jpg</image>
+            <name>Apple</name>
+            <amount>5 Apples / Bag</amount>
+            <unit>Bag</unit>
+            <rating>3</rating>
+            <price>5.99</price>
+            <description>Fresh and sweet. Try these apples on a salad.</description>
+        </product>
+
+        <product>
+            <pid>4</pid>
+            <image>Fruits/blueberry.jpg</image>
+            <name>Blueberry</name>
+            <amount>1 lb / Box</amount>
+            <unit>Box</unit>
+            <rating>5</rating>
+            <price>4.59</price>
+            <description>Delicious and works great for making pies.</description>
+        </product>
+
+        <product>
+            <pid>5</pid>
+            <image>Fruits/potato.jpg</image>
+            <name>Potato</name>
+            <amount>5 lb / Bag</amount>
+            <unit>Bag</unit>
+            <rating>2</rating>
+            <price>3.99</price>
+            <description>A good choice for baking, mashing, and frying. Peel and boil for mashed potatoes, or bake whole and top with sour cream for a side dish for your steak or pork chops.</description>
+        </product>
+
+    </aisle>
+
+    <aisle>
+
+        <aid>2</aid>
+
+        <aislename>BREAD &amp; BAKERY</aislename>
+
+        <aisleimage>Category/bakery.jpg</aisleimage>
+
+        <product>
+            <pid>6</pid>
+            <image>Bakery/baguette.jpg</image>
+            <name>Baguette</name>
+            <amount>Single Bread</amount>
+            <unit>Loaf</unit>
+            <rating>4</rating>
+            <price>3.99</price>
+            <description>Best bread to make sub-marin sandwiches</description>
+        </product>
+
+        <product>
+            <pid>7</pid>
+            <image>Bakery/hallah.jpg</image>
+            <name>Hallah Bread</name>
+            <amount>Single Bread</amount>
+            <unit>Loaf</unit>
+            <rating>4</rating>
+            <price>5.99</price>
+            <description>Fluffy Jewish Style bread with sweet and soft insides.</description>
+        </product>
+
+        <product>
+            <pid>8</pid>
+            <image>Bakery/sourdough.png</image>
+            <name>Sourdough</name>
+            <amount>Single Bread</amount>
+            <unit>Loaf</unit>
+            <rating>3</rating>
+            <price>3.99</price>
+            <description>Simple but delicious sourdough loaf. Pre-cut into perfect slices for sandwiches</description>
+        </product>
+
+        <product>
+            <pid>9</pid>
+            <image>Bakery/chococroissant.png</image>
+            <name>Choco-Croissant</name>
+            <amount>10 Choco-Croissants / Box</amount>
+            <unit>Box</unit>
+            <rating>5</rating>
+            <price>4.99</price>
+            <description>Simple and delicious choco-croissant rolled and prepared by hand.</description>
+        </product>
+
+        <product>
+            <pid>10</pid>
+            <image>Bakery/croissant.png</image>
+            <name>Croissant</name>
+            <amount>10 Croissants / Box</amount>
+            <unit>Box</unit>
+            <rating>5</rating>
+            <price>5.99</price>
+            <description>Simple and delicious butter croissant made by hand.</description>
+        </product>
+
+    </aisle>
+
+    <aisle>
+
+        <aid>3</aid>
+
+        <aislename>BEVERAGE</aislename>
+
+        <aisleimage>Category/beverage.jpg</aisleimage>
+
+        <product>
+            <pid>11</pid>
+            <image>Beverage/coca_cola_2L.jpg</image>
+            <name>Coca-Cola</name>
+            <amount>2 Liter</amount>
+            <unit>Bottle</unit>
+            <rating>5</rating>
+            <price>2.00</price>
+            <description>Soft Drink. Sparkling drink. Carbonated Beverage. Soda.</description>
+        </product>
+
+        <product>
+            <pid>12</pid>
+            <image>Beverage/dr_pepper_2L.jpg</image>
+            <name>Dr. Pepper</name>
+            <amount>2 Liter</amount>
+            <unit>Bottle</unit>
+            <rating>4</rating>
+            <price>2.00</price>
+            <description>Soft Drink. Sparkling drink. Carbonated Beverage. Soda.</description>
+        </product>
+
+        <product>
+            <pid>13</pid>
+            <image>Beverage/fanta_2Ljpg.jpg</image>
+            <name>Fanta</name>
+            <amount>2 Liter</amount>
+            <unit>Bottle</unit>
+            <rating>3</rating>
+            <price>2.00</price>
+            <description>Soft Drink. Sparkling drink. Carbonated Beverage. Soda.</description>
+        </product>
+
+        <product>
+            <pid>14</pid>
+            <image>Beverage/mountain_dew_2L.jpg</image>
+            <name>Mountain Dew</name>
+            <amount>2 Liter</amount>
+            <unit>Bottle</unit>
+            <rating>4</rating>
+            <price>2.00</price>
+            <description>Soft Drink. Sparkling drink. Carbonated Beverage. Soda.</description>
+        </product>
+
+        <product>
+            <pid>15</pid>
+            <image>Beverage/sprite_2L.jpg</image>
+            <name>Sprite</name>
+            <amount>2 Liter</amount>
+            <unit>Bottle</unit>
+            <rating>5</rating>
+            <price>2.00</price>
+            <description>Soft Drink. Sparkling drink. Carbonated Beverage. Soda.</description>
+        </product>
+
+    </aisle>
+
+    <aisle>
+
+        <aid>4</aid>
+
+        <aislename>MEAT &amp; SEAFOOD</aislename>
+
+        <aisleimage>Category/meat.jpg</aisleimage>
+
+        <product>
+            <pid>16</pid>
+            <image>Meat/bacon.webp</image>
+            <name>Bacon</name>
+            <amount>500 g / Unit</amount>
+            <unit>Unit</unit>
+            <rating>1</rating>
+            <price>10.00</price>
+            <description>Pork bacon</description>
+        </product>
+
+        <product>
+            <pid>17</pid>
+            <image>Meat/chicken.jpg</image>
+            <name>Chicken</name>
+            <amount>Whole Chicken</amount>
+            <unit>Chicken</unit>
+            <rating>4</rating>
+            <price>15.00</price>
+            <description>Best protein source</description>
+        </product>
+
+        <product>
+            <pid>18</pid>
+            <image>Meat/porkchop.jpg</image>
+            <name>Pork Chop</name>
+            <amount></amount>
+            <unit>Chop</unit>
+            <rating>1</rating>
+            <price>5.00</price>
+            <description>Haram</description>
+        </product>
+
+        <product>
+            <pid>19</pid>
+            <image>Meat/salmon.jpg</image>
+            <name>Salmon</name>
+            <amount></amount>
+            <unit>Kg</unit>
+            <rating>5</rating>
+            <price>20.00</price>
+            <description>Best source of omega 6</description>
+        </product>
+
+        <product>
+            <pid>20</pid>
+            <image>Meat/steak.webp</image>
+            <name>Ribeye Steak</name>
+            <amount></amount>
+            <unit>Kg</unit>
+            <rating>5</rating>
+            <price>20.00</price>
+            <description>Red Meat</description>
+        </product>
+
+    </aisle>
+
+    <aisle>
+
+        <aid>5</aid>
+
+        <aislename>SNACKS</aislename>
+
+        <aisleimage>Category/snack.jpg</aisleimage>
+
+        <product>
+            <pid>21</pid>
+            <image>Snacks/lindt.png</image>
+            <name>Lindt</name>
+            <amount>100 g / Box</amount>
+            <unit>Box</unit>
+            <rating>5</rating>
+            <price>3.00</price>
+            <description>Chocolate. Lindt SWISS CLASSIC Milk Chocolate Bar</description>
+        </product>
+
+        <product>
+            <pid>22</pid>
+            <image>Snacks/lays.png</image>
+            <name>Lay's</name>
+            <amount>235 g / Bag</amount>
+            <unit>Bag</unit>
+            <rating>3</rating>
+            <price>2.00</price>
+            <description>Crispy Chips. Lays's. Snacks.</description>
+        </product>
+
+        <product>
+            <pid>23</pid>
+            <image>Snacks/doritos.png</image>
+            <name>Doritos</name>
+            <amount>235 g / Bag</amount>
+            <unit>Bag</unit>
+            <rating>4</rating>
+            <price>2.00</price>
+            <description>Doritos Nacho Cheese. Tortilla Chips</description>
+        </product>
+
+        <product>
+            <pid>24</pid>
+            <image>Snacks/skittles.png</image>
+            <name>Skittles</name>
+            <amount>191 g / Bag</amount>
+            <unit>Bag</unit>
+            <rating>5</rating>
+            <price>3.00</price>
+            <description> Flavored candy. Chewy fruit-flavored candy</description>
+        </product>
+
+        <product>
+            <pid>25</pid>
+            <image>Snacks/celebration.png</image>
+            <name>Celebration</name>
+            <amount>240 g / Box</amount>
+            <unit>Box</unit>
+            <rating>5</rating>
+            <price>5.00</price>
+            <description>Celebration Milk Chocolate Top Butter Cookies.</description>
+        </product>
+
+    </aisle>
+
+    <aisle>
+
+        <aid>6</aid>
+
+        <aislename>PANTRY</aislename>
+
+        <aisleimage>Category/pantry.jpg</aisleimage>
+
+        <product>
+            <pid>26</pid>
+            <image>Pantry/rice.jpg</image>
+            <name>Rice</name>
+            <amount>2 Kg / Bag</amount>
+            <unit>Bag</unit>
+            <rating>5</rating>
+            <price>4.00</price>
+            <description>Chinese rice</description>
+        </product>
+
+        <product>
+            <pid>27</pid>
+            <image>Pantry/flour.jpg</image>
+            <name>Flour</name>
+            <amount>4.5 Kg / Bag</amount>
+            <unit>Bag</unit>
+            <rating>4</rating>
+            <price>10.00</price>
+            <description>All purpose flour</description>
+        </product>
+
+        <product>
+            <pid>28</pid>
+            <image>Pantry/sugar.jpg</image>
+            <name>Sugar</name>
+            <amount>5 Kg / Bag</amount>
+            <unit>Bag</unit>
+            <rating>5</rating>
+            <price>4.50</price>
+            <description>White sugar</description>
+        </product>
+
+        <product>
+            <pid>29</pid>
+            <image>Pantry/ricenoo.jpg</image>
+            <name>Rice Noodle</name>
+            <amount>250 g / Bag</amount>
+            <unit>Bag</unit>
+            <rating>3</rating>
+            <price>3.00</price>
+            <description>Chinese rice noodle</description>
+        </product>
+
+        <product>
+            <pid>30</pid>
+            <image>Pantry/salt.jpg</image>
+            <name>Salt</name>
+            <amount>1.5 Kg / Bag</amount>
+            <unit>Bag</unit>
+            <rating>5</rating>
+            <price>5.00</price>
+            <description>Cooking Salt</description>
+        </product>
+
+    </aisle>
+
+</productlsit>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Edit Profile</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="../../Metadata/icon.svg">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="../Font.css"> -->
+    <link rel="stylesheet" href="../NavBar.css">
+
+    <style>
+
+        .logo {
+            font-size: 25px;
+            font-weight: 700;
+            transform: scale(2, 2);
+            color: black;
+        }
+        .logo a {
+            text-decoration: none !important;
+        }
+        .logo-sub {
+            color: #f8ea1f;
+        }
+
+        body {
+            background-image: url("../Image/Logo/newlogo.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 70px;
+            background-attachment: fixed;
+            padding-right: 1.5%;
+            padding-left: 1.5%;
+        }
+
+        .title.jumbotron {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: #202326;
+            color: white;
+        }
+
+        .container {
+            width: 50em;
+        }
+
+    </style>
+
+    <script type="text/javascript" src="UserProfile.js"></script>
+    <script type="text/javascript">
+
+        function editExistingUser(userProfile) {
+            document.getElementById("user-first-name").value = userProfile.firstName;
+            document.getElementById("user-last-name").value = userProfile.lastName;
+            document.getElementById("user-email").value = userProfile.email;
+            document.getElementById("user-phone-number").value = userProfile.phoneNumber;
+            document.getElementById("user-dob").value = userProfile.dob;
+            document.getElementById("user-gender").value = userProfile.gender;
+            document.getElementById("user-password").value = userProfile.password;
+            document.getElementById("user-address").value = userProfile.address;
+        }
+
+    </script>
+
+</head>

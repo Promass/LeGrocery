@@ -1,0 +1,149 @@
+.welcome-box-m{
+    height: 400px;
+    background-color: #90F3B2;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Impact, sans-serif;
+}
+
+.welcome-text {
+    font-size:100px; 
+    -webkit-text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 0px;
+}
+
+#username {
+    margin-left: 20px;
+}
+
+.container-m {
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.container-m:nth-child(1) {
+    padding-right: 7.5px;
+    padding-left: 0px;
+}
+
+.container-m:nth-child(2) {
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+}
+
+.container-m:nth-child(3) {
+    padding-left: 7.5px;
+    padding-right: 0px;
+}
+
+.card {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    font-size: 130px;
+    text-align: center;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.card-img-top {
+    color: #009970;
+    transition: 0.3s;
+    padding: 0px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    color: #90F3B2;
+    transition: 0.3s;
+}
+
+.card-title {
+    color: #009970;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .container-m:nth-child(1) {
+        padding-right: 7.5px;
+    }
+    
+    .container-m:nth-child(2) {
+        padding-left: 7.5px;
+        padding-right: 0px;
+    }
+    
+    .container-m:nth-child(3) {
+        padding-left: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .welcome-text {
+        font-size: 80px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .welcome-text {
+        font-size: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .welcome-box {
+        display: block;
+        text-align: center;
+    }
+
+    #username {
+        margin-left: 0px;
+    }
+
+    .container-m:nth-child(1) {
+        padding-right: 0px;
+    }
+    
+    .container-m:nth-child(2) {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .welcome-box {
+        display: block;
+        text-align: center;
+    }
+
+    #username {
+        margin-left: 0px;
+    }
+
+    .welcome-text {
+        font-size: 50px;
+    }
+
+}

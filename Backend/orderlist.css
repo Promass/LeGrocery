@@ -1,0 +1,79 @@
+.content-box {
+    background-color: white;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    height: 50px;
+}
+
+#table-body tr {
+    height: 67px;
+}
+
+#table-body tr td{
+    vertical-align: middle;
+    border-top: solid #ebecf0;
+    border-width: thin;
+}
+
+#table-body tr:hover {
+    background-color: #90F3B2;
+}
+
+.table-icon {
+    display: flex;
+    justify-content: end;
+}
+
+#edit-btn {
+    width: 41.5px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    font-size: 25px;
+    visibility: hidden;
+    border-color: #009970;
+    -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    color: black;
+}
+
+#delete-btn {
+    width: 41.5px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    font-size: 25px;
+    visibility: hidden;
+    border-color: #009970;
+    -webkit-box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    color: black;
+}
+
+#table-body tr:hover #edit-btn{
+    visibility:visible;
+    
+}
+
+#table-body tr:hover #edit-btn:hover {
+    background-color: #009970;
+    color: white;
+}
+
+#table-body tr:hover #delete-btn{
+    visibility:visible;
+}
+
+#table-body tr:hover #delete-btn:hover{
+    background-color: #009970;
+    color: white;
+}
+
+

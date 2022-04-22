@@ -1,0 +1,404 @@
+<?xml version="1.0" standalone="yes"?><database>
+  <userlist id="UserList">
+    <user id="U1">
+      <id>1</id>
+      <firstname>Elon</firstname>
+      <lastname>Musk</lastname>
+      <email>elonmusk@neurolink.com</email>
+      <phonenumber>+12144567890</phonenumber>
+      <address>1 Rocket Rd, Hawthorne, CA 90250, USA</address>
+      <password>elonmusk</password>
+    </user>
+    <user id="U2">
+      <id>2</id>
+      <firstname>Steve</firstname>
+      <lastname>Jobs</lastname>
+      <email>stevejobs@apple.com</email>
+      <phonenumber>+12345678989</phonenumber>
+      <address>1 Apple Park Way, Cupertino, California, USA</address>
+      <password>stevejobs</password>
+    </user>
+    <user id="U3">
+      <id>3</id>
+      <firstname>Mark</firstname>
+      <lastname>Zuckerberg</lastname>
+      <email>markzuckerberg@oculus.com</email>
+      <phonenumber>+16170001234</phonenumber>
+      <address>1 Hacker Way, Menlo Park, California, CA 94025, USA</address>
+      <password>markzuck</password>
+    </user>
+    <user id="U4">
+      <id>4</id>
+      <firstname>Bill</firstname>
+      <lastname>Gates</lastname>
+      <email>billgates@microsoft.com</email>
+      <phonenumber>+1453111111</phonenumber>
+      <address>One Microsoft Way Redmond, WA 98052, USA</address>
+      <password>billgates</password>
+    </user>
+    <user id="U5">
+      <id>5</id>
+      <firstname>Jeff</firstname>
+      <lastname>Bezos</lastname>
+      <email>jeffbezos@amazon.com</email>
+      <phonenumber>+13219874321</phonenumber>
+      <address>440 Terry Avenue North Seattle, WA 98109 USA</address>
+      <password>jeffbezos</password>
+    </user>
+    <user id="U6">
+      <id>6</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>roger.123s@gmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-30</date>
+      <gender>Male</gender>
+      <password>         </password>
+    </user>
+    <user id="U7">
+      <id>7</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>roger.sioufi@gmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-26</date>
+      <gender>Male</gender>
+      <password>asdasdsdasd</password>
+    </user>
+    <user id="U8">
+      <id>8</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>roger.sioufasdasdi@gmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-17</date>
+      <gender>Male</gender>
+      <password>asdasdasdasd</password>
+    </user>
+    <user id="U10">
+      <id>10</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>roger.siouasdasdfi@gmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-09</date>
+      <gender>Male</gender>
+      <password>asdasdasdas</password>
+    </user>
+    <user id="U11">
+      <id>11</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>roger.sioufi@hotmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-13</date>
+      <gender>Male</gender>
+      <password>asdasdasdasd</password>
+    </user>
+    <user id="U12">
+      <id>12</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>testnow@gmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-07</date>
+      <gender>Male</gender>
+      <password>asdasdasdas</password>
+    </user>
+    <user id="U13">
+      <id>13</id>
+      <firstname>Roger</firstname>
+      <lastname>Sioufi</lastname>
+      <email>roger@hotmail.com</email>
+      <phonenumber>5142130621</phonenumber>
+      <date>2021-04-07</date>
+      <gender>Male</gender>
+      <password>asd102030</password>
+    </user>
+    <user id="U14">
+      <id>14</id>
+      <firstname>Steve</firstname>
+      <lastname>Jobs</lastname>
+      <email>s@gmail.com</email>
+      <phonenumber></phonenumber>
+      <date>2021-04-16</date>
+      <gender>Male</gender>
+      <password>asd102030</password>
+    </user>
+    <user id="U15">
+      <id>15</id>
+      <firstname>Rayan</firstname>
+      <lastname>Moarkech</lastname>
+      <email>rayan@moarkech.com</email>
+      <phonenumber>5145145514</phonenumber>
+      <date>2021-04-19</date>
+      <gender>Male</gender>
+      <password>12345678</password>
+      <address>address1234</address>
+    </user>
+  </userlist>
+  <bakerylist id="BakeryList">
+    <bakery id="BA1">
+      <id>1</id>
+      <image>https://1.bp.blogspot.com/-lPj3Scy34m8/XtkyzfwBfNI/AAAAAAABPcU/g3UVPf6W7C87FABlpiC1ttePFNWrtfspQCLcBGAsYHQ/s1600/croissants-maison.jpg</image>
+      <item>Croissant</item>
+      <price>1.99$/each</price>
+      <category>Strawberry filling </category>
+      <quantity>33 boxes </quantity>
+      <availability>Each Wednesday </availability>
+      <description>The perfect flaky and buttery croissant, Your Fresh Market All Butter Croissants are baked fresh in store and are free from artificial colour and flavour. Light, airy and full of flavour, enjoy on their own as a snack, or pair with your favourite brunch items like fruit, jam and cheese. With so many different ways to enjoy this classic French pastry, this 12 pack size will satisfy you and your familys croissant cravings. Free From Artificial Flavours and Colours</description>
+    </bakery>
+    <bakery id="BA2">
+      <id>2</id>
+      <image>https://images.immediate.co.uk/production/volatile/sites/30/2020/08/carrot-cake-8d8dfb5.jpg</image>
+      <item>Pecan cake </item>
+      <price>12.99$/each </price>
+      <category>Regular</category>
+      <quantity>3 Units "Almost Out of Stock!"</quantity>
+      <availability>Each Wednesday </availability>
+      <description> A delicious dessert is only a few minutes away with Betty Crocker SuperMoist Cake Mix! The always decadent SuperMoist Cake Mix is a long-time fan favourite; use it to bake up a delicious cake with some Betty Crocker frosting!</description>
+    </bakery>
+    <bakery id="BA3">
+      <id>3</id>
+      <image>https://bakingamoment.com/wp-content/uploads/2019/01/IMG_2536-best-french-baguette-recipe.jpg</image>
+      <item>Baguettes</item>
+      <price>0.99$/each</price>
+      <category>Regular</category>
+      <quantity>19 Units </quantity>
+      <availability>Each Monday </availability>
+      <description> With a crisp crust and soft fluffy centre, Your Fresh Market White Baguette is baked fresh in-store every day with no added preservatives, artificial flavours or colours. This versatile French-Style baguette pairs well with so many things. The mild sour flavour is perfect served as a side with olive oil and balsamic vinegar to dip, or use this crisp and golden bread as delicious bite-size grilled cheese. Best served warm, add butter and enjoy anytime. </description>
+    </bakery>
+    <bakery id="BA4">
+      <id>4</id>
+      <image>https://dominosugar.com/emshare/views/modules/asset/downloads/originals/2020/09/74014/MuffinsTipsShippingBakedGoods.jpg/MuffinsTipsShippingBakedGoods.jpg</image>
+      <item>Muffins</item>
+      <price>4.99$/each </price>
+      <category>1 box (6 Muffins) </category>
+      <quantity>9 boxes </quantity>
+      <availability>Weekend Morning</availability>
+      <description> Club Pack Muffins - Chocolate Chunk, Banana Chocolate Chip, Blueberry</description>
+    </bakery>
+
+  </bakerylist>
+  <butcherylist id="ButcheryList">
+    <butchery id="BU1">
+      <id>1</id>
+      <image>https://thumbs.dreamstime.com/b/raw-meat-beef-steak-green-rustic-table-raw-meat-beef-steak-green-rustic-table-background-164197668.jpg</image>
+      <item>Sirloin steak	</item>
+      <price>8.53 ($2.84 / 100 gm)	</price>
+      <category>1 steak (approx. 300 gm) </category>
+      <quantity>30 kg	 </quantity>
+      <availability>Daily Basis	 </availability>
+      <description> Create the perfect barbeque meal with the Your Fresh Market AAA Angus Beef Boneless Top Sirloin Steaks. These thick steaks are best for grilling or pan searing. Made with 100% Canadian AAA Angus beef providing world class quality that you have come to expect from Canada Beef. Tender and juicy, they are sure to be a hit with your family and friends.</description>
+    </butchery>
+    <butchery id="BU2">
+      <id>2</id>
+      <image>https://post.healthline.com/wp-content/uploads/2020/09/2375-Raw_Chicken-1296x728-header-1200x628.jpg</image>
+      <item>Chicken Breast </item>
+      <price>3.96 ($1.98 / 100 gm) </price>
+      <category>1 breast (approx. 200 gm)</category>
+      <quantity>21 kg</quantity>
+      <availability>Daily Basis </availability>
+      <description> Quick and easy to prepare, Maple Leaf Chicken Breast are great for weeknight dinners. Full of succulence and flavour! </description>
+    </butchery>
+    <butchery id="BU3">
+      <id>3</id>
+      <image>https://www.bowrivermeatmarket.ca/wp-content/uploads/2019/06/porkchops.jpg</image>
+      <item>Pork chops </item>
+      <price>9.69 ($1.21 / 100 gm) </price>
+      <category>6 pork chops (approx. 800gm)	</category>
+      <quantity>34 kg </quantity>
+      <availability>Daily Basis </availability>
+      <description>Fire up the grill this season and enjoy these succulent pork loin chops.  </description>
+    </butchery>
+    <butchery id="BU4">
+      <id>4</id>
+      <image>https://assets.bonappetit.com/photos/57ad3d4c53e63daf11a4dd38/16:9/w_1280,c_limit/spicy-italian-sausage.jpg</image>
+      <item>Italian sausages	</item>
+      <price>5.70 ($1.54 / 100 gm) </price>
+      <category>4 sausages (approx. 370 gm)	</category>
+      <quantity>16 kg	 </quantity>
+      <availability>Daily Basis </availability>
+      <description> These Mild Italian Pork Sausages are perfectly seasoned and ready for the BBQ! </description>
+    </butchery>
+  </butcherylist>
+  <frozenlist id="FrozenList">
+    <frozen id="FRO1">
+      <id>1</id>
+      <image>https://www.thespruceeats.com/thmb/BYOHKcXhja-ez7Fr9obgBrDHJ1Y=/3064x2042/filters:fill(auto,1)/easy-chocolate-ice-cream-recipe-1945798-hero-01-45d9f26a0aaf4c1dba38d7e0a2ab51e2.jpg</image>
+      <item>Ice cream	</item>
+      <price>6.99$/each	</price>
+      <category>1 container (1.66L)</category>
+      <quantity>40 boxes </quantity>
+      <availability>Weekends Evening	</availability>
+      <description>Sometimes simple is best. Fresh cream, rich cocoa, and all natural flavours. You cannot go wrong serving Creamery Style chocolate ice cream.  </description>
+    </frozen>
+    <frozen id="FRO2">
+      <id>2</id>
+      <image>https://img1.mashed.com/img/gallery/frozen-pizzas-ranked-from-best-to-worst/intro-1557421988.jpg</image>
+      <item>Frozen pizza	 </item>
+      <price>3.99$ </price>
+      <category>N/A </category>
+      <quantity>2 Units "Almost Out of Stock!"</quantity>
+      <availability>Upon Request</availability>
+      <description>The #1 selling thin crust pizza brand now with the #1 most popular topping! This delicious pizza is topped with classic pepperoni slices and a perfect blend of mozzarella and edam cheese.  </description>
+    </frozen>
+    <frozen id="FRO3">
+      <id>3</id>
+      <image>https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mixed-frozen-vegetables-on-a-bowl-top-view-royalty-free-image-1609971514.</image>
+      <item>Frozen vegetables	</item>
+      <price>2.99$/each</price>
+      <category>1 package (750g)	</category>
+      <quantity>20 Units </quantity>
+      <availability>Daily Basis</availability>
+      <description> Home-made soup is just minutes away when you have a bag of Great Value Mixed Vegetables in your freezer. Your family will enjoy soup you have made using chicken stock, leftover chicken, an onion and the blend of carrots, peas, green beans and corn in budget-friendly Great Value Mixed Vegetables. </description>
+    </frozen>
+    <frozen id="FRO4">
+      <id>4</id>
+      <image>https://thecozycook.com/wp-content/uploads/2020/02/Copycat-McDonalds-French-Fries--500x500.jpg</image>
+      <item>Frozen Fries</item>
+      <price>2.99$/bag </price>
+      <category>1 package (900g) </category>
+      <quantity>48 packages </quantity>
+      <availability>Weekend Thursday</availability>
+      <description>Five-minute Superfries are quick and easy to prepare. Simply layer them on a baking sheet and pop them into a preheated oven or toaster oven. See full details on packaging.  </description>
+    </frozen>
+  </frozenlist>
+  <fruitslist id="FruitsList">
+    <fruits id="FRU1">
+      <id>1</id>
+      <image>https://i.ndtvimg.com/i/2015-10/kiwi-fruit_625x350_81445871711.jpg</image>
+      <item>Kiwis</item>
+      <price>$1.29/ Each</price>
+      <category>N/A </category>
+      <quantity>65 units	 </quantity>
+      <availability>Daily Basis</availability>
+      <description>This sweet Kiwi fruit makes a great snack. With a distinct tropical flavour it pairs well in your salad and desserts. </description>
+    </fruits>
+    <fruits id="FRU2">
+      <id>2</id>
+      <image>https://image.freepik.com/free-photo/some-tomatoes-slices-with-knife-wooden-cutting-board-top-view_176474-3944.jpg</image>
+      <item>Tomatoes </item>
+      <price>1.65 ($1.10 / 100 gm)</price>
+      <category>1 fruit (approx. 150 gm)</category>
+      <quantity>15 kg	</quantity>
+      <availability>Daily Basis	</availability>
+      <description> Roma tomato are a popular choice for canning or sauces, since they do not have very many seeds. Their medium sized nature also makes them a popular choice for salads.</description>
+    </fruits>
+    <fruits id="FRU3">
+      <id>3</id>
+      <image>https://www.shethepeople.tv/wp-content/uploads/2019/05/cucumber-e1558166231577.jpg</image>
+      <item>Cucumbers</item>
+      <price>0.99$</price>
+      <category>N/A	</category>
+      <quantity>33 Units </quantity>
+      <availability>Each Thursday </availability>
+      <description>With a sharp and bittersweet flavour mini cucumbers make a great snack or addition to your salad. </description>
+    </fruits>
+    <fruits id="FRU4">
+      <id>4</id>
+      <image>https://i0.wp.com/post.healthline.com/wp-content/uploads/2020/09/health-benefits-of-apples-732x549-thumbnail-732x549.jpg</image>
+      <item>Apples</item>
+      <price>0.99 ($0.55 / 100 gm) </price>
+      <category>1 fruit (approx. 180 gm) </category>
+      <quantity>9 kg </quantity>
+      <availability>Weekend Thursday</availability>
+      <description> The mild yet sweet flavour of the Gala apple has made it a family favourite for snacks, salads and sauces. The vibrant red mixes in with subtle hints of green to give the apple its unmistakable look. </description>
+    </fruits>
+  </fruitslist>
+  <otherslist id="OthersList">
+    
+    
+    <others id="O3">
+      <id>3</id>
+      <image>https://spy.com/wp-content/uploads/2019/12/featured-christmas-trees.jpg?w=650</image>
+      <item>Christmas Tree </item>
+      <price>89.99$ (on Sale!!) </price>
+      <category>1.9m height, 320 LEDs	</category>
+      <quantity>45 units  </quantity>
+      <availability>Special Occasion	</availability>
+      <description> The Tree comes 350 LED lights </description>
+    </others>
+    <others id="O4">
+      <id>4</id>
+      <image>https://i.pinimg.com/originals/44/6b/e6/446be65991ff26fb8be0cbfaddcba5cb.jpg</image>
+      <item>BBQ Grill	</item>
+      <price>319.95$ </price>
+      <category>4.0 BTU </category>
+      <quantity>32 units</quantity>
+      <availability>Special Occasion	</availability>
+      <description> For indoors and outdoors usage</description>
+    </others>
+  </otherslist>
+  <seafoodlist id="SeafoodList">
+    <seafood id="S1">
+      <id>1</id>
+      <image>https://www.tannersfish.com/wp-content/uploads/2015/09/alaskan-sockeye-salmon-fillet-1-scaled.jpg</image>
+      <item>Salmon</item>
+      <price>7.85 ($3.42/ 100 gm)</price>
+      <category>1 fillet (approx. 230 gm)	</category>
+      <quantity>45 kg	</quantity>
+      <availability>Special Occasion </availability>
+      <description> Your Fresh Market Canadian Atlantic Salmon Fillets are a good source of omega-3s. Salmon is a low-calorie protein. Also available in portions or steaks. Perfect for the grill! Value Pack. BAP Certified. 100% Satisfaction Guaranteed.</description>
+    </seafood>
+    <seafood id="S2">
+      <id>2</id>
+      <image>https://post.healthline.com/wp-content/uploads/2020/09/shrimp-on-wooden-platter-thumb-732x549.jpg</image>
+      <item>Shrimp </item>
+      <price>11.49 / box </price>
+      <category>1 package (approx. 230 gm)	</category>
+      <quantity>32 packages </quantity>
+      <availability>Weekends Morning </availability>
+      <description> A tasty addition to a variety of meals, frozen Great Value Shrimp are pre-cooked and ready to eat. With 71-90 shrimp per pound, these Great Value Shrimp are deveined and peeled, with the tail left on for easy preparation. They are perfect for shrimp cocktail at your next dinner party!</description>
+    </seafood>
+    <seafood id="S3">
+      <id>3</id>
+      <image>https://www.mtlblog.com/u/2018/03/29/287cda991ada9004618c7c11d085b240181b8fac.jpg_1200x630.jpg</image>
+      <item>Fresh oyster </item>
+      <price>25.99 ($1.44 / EA)	</price>
+      <category>1 box (18 EA)	</category>
+      <quantity>45 Units </quantity>
+      <availability>Weekends Evening </availability>
+      <description> Smoked Oysters come in natural hardwood smoke flavour and packed in sunflower oil.</description>
+    </seafood>
+    <seafood id="S4">
+      <id>4</id>
+      <image>https://www.earthfoodandfire.com/wp-content/uploads/2018/06/A-complete-guide-to-cooking-atlantic-lobster.jpg</image>
+      <item>Live lobster </item>
+      <price>$5.42 / 100 gm ($42.83)	</price>
+      <category>1 lobster (approx. 790 gm) </category>
+      <quantity>32 boxes </quantity>
+      <availability>Weekend Morning</availability>
+      <description> Lobster is perfect for those special occasions. Just defrost lobster overnight and boil for 1 minute. Sourced from and MSC certified sustainable fishery.</description>
+    </seafood>
+  </seafoodlist>
+  <orderlist>
+    <order id="O1">
+      <userid>U1</userid>
+      <cart-total>123</cart-total>
+      <time>2021-04-20T01:13:36.108Z</time>
+      <items>
+        <item>
+          <id>FRO4</id>
+          <quanity>2</quanity>
+        </item>
+      </items>
+    </order>
+    
+    <order id="O2">
+      <userid>U2</userid>
+      <cart-total>1234</cart-total>
+      <time>2021-04-20T01:13:36.108Z</time>
+      <items>
+        <item>
+          <id>BA1</id>
+          <quanity>4</quanity>
+        </item>
+        <item>
+          <id>BA2</id>
+          <quanity>4</quanity>
+        </item>
+      </items>
+    </order>
+  </orderlist>
+</database>

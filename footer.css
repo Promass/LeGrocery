@@ -1,0 +1,160 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+#footer-id {
+    margin-top: 500px;
+    position:static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.top-footer-fluid {
+    background-color: #232426;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-footer-fluid {
+    background-color: #0D0D0D;
+    color: white;
+    height: 100%;
+}
+
+.bottom-footer-container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.top-footer-container {
+    justify-content: space-between;
+    padding: 10px 0px;
+    max-width: 1140px;
+}
+
+.contact-btn {
+    border: solid white;
+    background-color: #232426;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 5px 10px;
+    transition: 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #009970;
+    border-color: #009970;
+    color: white;
+    transition: 0.3s;
+}
+
+.contact-btn:first-of-type {
+    margin-top: 10px;
+}
+
+.follow {
+    padding-top: 10px;
+}
+
+.follow a {
+    font-size: 20px;
+    padding: 10px 4px 0px 4px;
+    color: white;
+    transition: 0.3s;
+}
+
+.follow a:hover {
+    color: #009970;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.quick {
+    height: 100%;
+    display: grid;
+}
+
+.quick span {
+    padding-bottom: 3px;
+}
+
+.footer-quick-links {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-quick-links li{
+    padding-bottom: 10px;
+}
+
+.footer-quick-links li a{
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-quick-links li a:hover{
+    text-decoration: none;
+    color: #009970;
+    transition: 0.3s;
+}
+
+#sub-btn {
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    background-color: #009970;
+    transition: 0.3s;
+}
+
+#sub-btn:hover {
+    background-color: #90F3B2;
+    transition: 0.3s;
+}
+
+.payment{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.payment i {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.subscribe form {
+    padding-top: 10px;
+}
+
+.h-line {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .h-line {
+        display: block;
+        width: 100%;
+        border-color: white;
+    }
+
+    .top-footer-container .row {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .contact-btn {
+        margin-left: 0px;
+    }
+
+    .payment{
+        margin-top: 10px;
+    }
+}

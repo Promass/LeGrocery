@@ -1,0 +1,28 @@
+<?xml version="1.0" standalone="yes"?>
+<userlist id="UserList">
+  
+  
+    
+  
+    
+  <user id="U4">
+
+      <id>4</id>
+      <firstname>julyn</firstname>
+      <lastname>divinagracia</lastname>
+       <email>billgates@microsoft.com</email>
+      <phonenumber>+1453111111</phonenumber>
+      <address>One Microsoft Way Redmond, WA 98052, USA</address>
+      <password>billgates</password> 
+  </user>
+  <user id="U5">
+
+      <id>5</id>
+      <firstname>cristine</firstname>
+      <lastname>demapanag</lastname>
+      <email>jeffbezos@amazon.com</email>
+      <phonenumber>+13219874321</phonenumber>
+      <address>440 Terry Avenue North Seattle, WA 98109 USA</address>
+      <password>jeffbezos</password>
+        </user>
+<user id="6"><firstname>Maro</firstname><lastname>Michael</lastname><email>monicanasser6@gmail.com</email><phonenumber>4387783428</phonenumber><address>7131, Boyer</address><password>kjhffdd</password></user></userlist>

@@ -1,0 +1,221 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.nochange {
+    all: inherit;
+}
+
+.nochange:hover {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+.nav-spacer {
+    width: 100%;
+    top: 0px;
+    height: 100px;
+}
+
+.big-box {
+    display: flex;
+    background: #009970;
+    max-height: 150px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0px;
+    padding-bottom: 10px;
+}
+
+.font-weight-bold {
+    color: white;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+.card-body {
+    border-top: solid rgb(214, 214, 214);
+    border-width: thin;
+    border-radius: 0px;
+}
+
+.card a img {
+    object-fit: contain;
+    height: 251px;
+    width: 100%;
+}
+
+.add-quantity{
+    padding: 0px;
+    margin: 0px;
+}
+
+.quantity-btn {
+    width: 100%;
+    display: flex;
+    height: 40px;
+}
+
+.plus-minus {
+    height: 100%;
+    width: 100px;
+    background: #009970;
+    color: white;
+    padding-top: 3px;
+    border-color: #90F3B2;
+    border-width: thin;
+    border-radius: 5px;
+    border-style: solid;
+    transition: 0.3s;
+}
+
+.plus-minus:hover {
+    background: #90F3B2;
+    transition: 0.3s;
+    border-color: #90F3B2;
+}
+
+.quantity-box {
+    width: 100%;
+    height: 100%;
+    margin: 0px 5px 0px 5px;
+    padding: 0px auto 0px auto;
+    text-align: center;
+    border-radius: 0px;
+    border-color: #90F3B2;
+    border-width: thin;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.quantity-cart {
+    height: 100%;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.quantity-cart a {
+    height: 100%;
+    width: 100%;
+    background: #009970;
+    color: white;
+    border-color: #90F3B2;
+    border-width: thin;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.quantity-cart a:hover {
+    background: #90F3B2;
+    transition: 0.3s;
+    border-color: #90F3B2;
+}
+
+.sort-box {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black;
+    border-width: thin;
+    padding: 14px 14px;
+}
+
+.sort-box-text {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .card a img {
+        height: 286px;
+        width: 100%;
+    }
+
+    .font-weight-bold {
+        font-size: 65px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card a img {
+        height: 206px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .font-weight-bold {
+        font-size: 50px;
+    }
+
+    .card a img {
+        height: 506px;
+        width: 100%;
+    }
+
+    .big-box {
+        padding-bottom: 3px;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .font-weight-bold {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .sort-box {
+        font-size: 15px;
+    }
+
+    .sort-box-text {
+        font-size: 15px;
+    }
+
+    .card a img {
+        width: 100%;
+        height: 391px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .sort-box {
+        font-size: 12px;
+    }
+
+    .sort-box-text {
+        font-size: 12px;
+    }
+
+    .card a img {
+        width: 100%;
+        height: 341px;
+    }
+
+    .font-weight-bold {
+        font-size: 20px;
+    }
+
+    .big-box {
+        padding-bottom: 1px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .card a img {
+        width: 100%;
+        height: 286px;
+    }
+}
